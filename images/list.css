@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.avn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.avn img {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Space between galleries */
+    padding: 50px;
+    color: yellow;
+}
+
+.gallery {
+    border: 1px solid hsl(0, 0%, 60%);
+    width: 400px; /* Set a fixed width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+    max-height: 90px; /* Set a fixed height */
+    overflow-y: auto; /* Enable scrolling if the content exceeds the max height */
+}
+
+.gallery:hover {
+    border: 1px solid hsl(0, 0%, 20%);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100px; /* Set a fixed height for the image */
+    object-fit: cover;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.gallery2 img {
+    display: inline-block;
+    border: 1px grey;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Space between galleries */
+    padding: 50px;
+}
+
+/* Added a new container for additional galleries */
+.gallery-container:nth-child(2) {
+    justify-content: flex-start; /* Align galleries to the left in the second container */
+}
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Space between galleries */
+    padding: 50px;
+}
+
+.gallery {
+    border: 1px solid hsl(0, 0%, 60%);
+    width: 400px; /* Set a fixed width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Gallery container and styling */
+.gallery {
+    border: 1px solid hsl(0, 0%, 60%);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Add space between galleries */
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+

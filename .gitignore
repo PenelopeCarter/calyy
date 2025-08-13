@@ -1,0 +1,19 @@
+# Configuration file with sensitive credentials
+config.php
+
+# Database exports
+*.sql
+
+# Live data file
+site_data.json
+
+# User uploaded content
+/uploads/
+/screenshots/
+
+# Large media files
+*.mp4
+
+# System files
+.DS_Store
+Thumbs.db
