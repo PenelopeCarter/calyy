@@ -223,7 +223,7 @@ $screenshots_to_show_initially = 6;
         </div>
     </div>
 
-    <footer style="text-align:center; color:#444; padding: 40px 20px 20px 20px; font-size:0.9rem;">&copy; <?= date('Y') ?> Caly — All Rights Reserved</footer>
+    <footer style="text-align:center; color:#444; padding: 40px 20px 20px 20px; font-size:0.9rem;">&copy; <?= date('Y') ?> Calyy — All Rights Reserved</footer>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         const showMoreBtn = document.getElementById('showMoreScreenshots');

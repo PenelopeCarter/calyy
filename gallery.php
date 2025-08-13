@@ -376,7 +376,7 @@ sort($unique_tags);
             <?php endif; ?>
         </div>
     </div>
-    <footer style="text-align:center; color:#444; padding:20px; font-size:0.9rem;">© <?= date('Y') ?> AVN Gallery — All Rights Reserved</footer>
+    <footer style="text-align:center; color:#444; padding:20px; font-size:0.9rem;">© <?= date('Y') ?> Calyy — All Rights Reserved</footer>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         const searchInput = document.getElementById("searchInput");
